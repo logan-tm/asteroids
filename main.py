@@ -46,7 +46,7 @@ def main():
       for s in shots:
         if s.is_colliding_with(a):
           s.kill()
-          a.kill()
+          a.split()
 
     # draw
     screen.fill("black")
